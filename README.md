@@ -20,6 +20,6 @@ Vue + Vue Router + Vuex + Typescript + Echart
 | Vuex | https://vuex.vuejs.org/zh/ |
 | Typescript | https://www.tslang.cn/docs/home.html |
 
-##项目截图
+## 项目截图
 
 ![](./img/0.png)|![](./img/2.png)|![](./img/3.png)|![](./img/4.png)
