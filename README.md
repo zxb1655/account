@@ -2,7 +2,7 @@
 
 ## 项目介绍
 
-访问地址：[http://account.jzzz66.cn  ](http://account.jzzz66.cn  )
+访问地址：http://account.jzzz66.cn 
 这是一款基于 vue+ts 的单页面移动的记账应用，实习时学习 ts 所写，使用到了许多零零散散的知识，知识是无止境的啊，同样也发现了需求也是无止境。  
 主要实现的功能包括记账页面，标签管理，统计页面，数据持久化等。  
 同时引入了 Echarts 来做数据可视化，采用 Vuex + LocalStorage 做全局状态管理与数据持久化。  
