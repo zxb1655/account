@@ -1,49 +1,49 @@
-import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
+import Vue from "vue";
+import VueRouter, { RouteConfig } from "vue-router";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-  const routes: Array<RouteConfig> = [
+const routes: Array<RouteConfig> = [
   {
-    path: '/',
-    redirect:'/home'
+    path: "/",
+    redirect: "/home",
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: () => import('../views/Home.vue')
+    path: "/home",
+    name: "Home",
+    component: () => import("../views/Home.vue"),
   },
   {
-    path: '/account',
-    name: 'Account',
-    component: () => import('../views/Account.vue')
+    path: "/account",
+    name: "Account",
+    component: () => import("../views/Account.vue"),
   },
   {
-    path: '/detail',
-    name: 'Detail',
-    component: () => import('../views/Detail.vue')
+    path: "/detail",
+    name: "Detail",
+    component: () => import("../views/Detail.vue"),
   },
   {
-    path: '/label',
-    name: 'Label',
-    component: () => import('../views/Label.vue')
+    path: "/label",
+    name: "Label",
+    component: () => import("../views/Label.vue"),
   },
   {
-    path: '/statistics',
-    name: 'Statistics',
-    component: () => import('../views/Statistics.vue')
+    path: "/statistics",
+    name: "Statistics",
+    component: () => import("../views/Statistics.vue"),
   },
   {
-    path: '*',
-    name: 'NotFount',
-    component: () => import('../views/NotFount.vue')
-  }
-]
+    path: "*",
+    name: "NotFount",
+    component: () => import("../views/NotFount.vue"),
+  },
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "hash",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
