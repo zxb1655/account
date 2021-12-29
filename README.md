@@ -22,4 +22,7 @@ Vue + Vue Router + Vuex + Typescript + Echart
 
 ##项目截图
 
-![h]()
+![h](https://github.com/zxb1655/account/blob/master/img/1.png?raw=true)
+![h](https://github.com/zxb1655/account/blob/master/img/2.png?raw=true)
+![h](https://github.com/zxb1655/account/blob/master/img/3.png?raw=true)
+![h](https://github.com/zxb1655/account/blob/master/img/4.png?raw=true)
